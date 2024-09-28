@@ -5,13 +5,14 @@ Woof App
 The Woof app is a list of dog photos with information about them including their name, age, and favorite activity. This app also uses Material Design to create a beautiful app experience for the user.
 
 Screenshot
+
 ----------
 
 
 Learn
 -----
 - Hexadecimal (Hex) Color Codes
-    <!-- Add image here -->
+    - <img src="https://github.com/user-attachments/assets/d999a245-bb8e-48fa-9e75-2d1c27e6e10b">
 - [Material Theme Builder](https://m3.material.io/theme-builder#/custom) が便利
 - [Android StudioでMarkdownのプレビューを表示させる方法](https://qiita.com/noobar/items/8edd6f7da28666e1b5cb)
   - Dynamic Color (Material3)
