@@ -48,6 +48,26 @@ Learn
   - Type.ktにフォントを追加する
 - ScaffoldはスロットをTopBarなどのスロットを提供できる
   - innerPaddingを使ってTopBarなどのスロットの領域を避けてレイアウトを設定できる
+- [Material Design Icon](https://material.io/resources/icons/?style=baseline)
+  - `implementation("androidx.compose.material:material-icons-extended")`
+- Compose PreviewのInteractiveModeを使うと、ボタンなどのクリックイベントを確認できる(Previewの右上にボタンがある)
+- Spring Animationはバネのような動きをするアニメーション
+  - DampingRatio: 動きの後にどの程度振動するか
+  - Stiffness level: バネの硬さ(硬いほど早く戻る)
+  ```kotlin
+  modifier = Modifier
+    .animateContentSize(
+        animationSpec = spring(
+            dampingRatio = Spring.DampingRatioNoBouncy,
+            stiffness = Spring.StiffnessMedium
+        )
+    )
+- animate*AsState()でtargetValueを設定することで、現在の値からターゲットまでのシンプルなアニメーションを実現する
+  ```kotlin
+   val color by animateColorAsState(
+       targetValue = if (expanded) MaterialTheme.colorScheme.tertiaryContainer
+       else MaterialTheme.colorScheme.primaryContainer,
+   )
 
 Introduction
 ------------
