@@ -68,6 +68,10 @@ Learn
        targetValue = if (expanded) MaterialTheme.colorScheme.tertiaryContainer
        else MaterialTheme.colorScheme.primaryContainer,
    )
+- Accessibility
+  - TalkBackを使ってアプリを操作する
+    - ContentDescriptionは大事
+    - クリック可能な要素は最低でも48dp x 48dp
 
 Introduction
 ------------
