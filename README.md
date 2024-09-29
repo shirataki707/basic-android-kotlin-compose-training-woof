@@ -5,9 +5,8 @@ Woof App
 The Woof app is a list of dog photos with information about them including their name, age, and favorite activity. This app also uses Material Design to create a beautiful app experience for the user.
 
 Screenshot
-
 ----------
-
+<img src="https://github.com/user-attachments/assets/6cbfc357-2c64-4cfb-ba52-945fee2f6cf5" width="300">
 
 Learn
 -----
